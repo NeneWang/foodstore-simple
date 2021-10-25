@@ -10,7 +10,7 @@ export default function MenuThree({ hide, container }) {
     <div className="menu -style-3">
       <div className={renderContainer(container)}>
         <div className="menu__wrapper">
-          <Link href="/homepages/homepage1">
+          <Link href="//index">
             <a className="menu__wrapper__logo">
               <img
                 src={process.env.PUBLIC_URL + "/assets/images/logo-white.png"}

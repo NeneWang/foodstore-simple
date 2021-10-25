@@ -10,10 +10,10 @@ export default function () {
   const { register, handleSubmit, watch, errors } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
-    <LayoutFour title="Contact us">
-      <Breadcrumb title="Contact us">
+    <LayoutFour title="Contáctanos">
+      <Breadcrumb title="Contáctanos">
         <BreadcrumbItem name="Home" />
-        <BreadcrumbItem name="Contact us" current />
+        <BreadcrumbItem name="Contáctanos" current />
       </Breadcrumb>
       <div className="contact">
         <div className="container">

@@ -62,7 +62,7 @@ export default function SliderOne({ data, className }) {
             >
               <div>
                 <Button
-                  action="/homepages/homepage1"
+                  action="//index"
                   content={data.btn.content}
                   color={data.btn.color}
                 />

@@ -12,7 +12,7 @@ export default function MenuFive({ container }) {
       <div className="menu -style-5">
         <div className={renderContainer(container)}>
           <div className="menu__wrapper">
-            <Link href="/homepages/homepage1">
+            <Link href="//index">
               <a className="menu__wrapper__logo">
                 <img src="/assets/images/logo.png" alt="Logo" />
               </a>

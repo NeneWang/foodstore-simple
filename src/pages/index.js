@@ -1,17 +1,18 @@
-import Head from "next/head";
-import Link from "next/link";
 
-export default function Home() {
+import LayoutFour from "../components/Layout/LayoutFour";
+import SliderTwo from "../components/Sections/Slider/SliderTwo";
+import sliderData from "../data/slider/sliderOne.json";
+import IntroductionOne from "../components/Sections/Introduction/IntroductionOne";
+import introductionOneData from "../data/introduction/introductionOne.json";
+import IntroductionTwo from "../components/Sections/Introduction/IntroductionTwo";
+import introductionTwoData from "../data/introduction/introductionTwo.json";
+
+export default function homepage1() {
   return (
-    <>
-      <Head>
-        <title>Index page</title>
-      </Head>
-      <div className="container">
-        <Link href="/homepages/homepage1">
-          <a>Go to homepage 1</a>
-        </Link>
-      </div>
-    </>
+    <LayoutFour title="Homepage 1" data={sliderData} className="-style-1">
+      <SliderTwo data={sliderData} className="-style-1" showDots />
+      <IntroductionOne data={introductionOneData} />
+      <IntroductionTwo data={introductionTwoData} />
+    </LayoutFour>
   );
 }
