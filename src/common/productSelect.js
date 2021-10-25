@@ -3,7 +3,12 @@ export const getProducts = (products, category, type, limit) => {
   category = category && category.toLowerCase() === "todo" ? "" : category;
   const finalProducts = category
     ? products.filter(
-        (product) => product.category.toLowerCase() === category.toLowerCase()
+        (product) => {
+          // TODO: Explode the commas and search if exists.
+          let productCategories = product.category.toLowerCase().split(",")
+          // console.log(productCategories);
+          return productCategories.includes(category.toLowerCase());
+        }
       )
     : products;
   if (type && type === "new") {
