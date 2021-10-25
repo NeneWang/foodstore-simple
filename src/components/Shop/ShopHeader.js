@@ -34,7 +34,7 @@ export default function ShopHeader({
               setView("list");
             }}
           >
-            <i className="fas fa-bars"></i>
+            {/* <i className="fas fa-bars"></i> */}
           </a>
         </div>
         {view === "grid" && (
