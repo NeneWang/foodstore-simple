@@ -8,7 +8,6 @@
   ],
   "informationLinks": [
     { "name": "About us", "to": "/other/about" },
-    { "name": "Careers", "to": "/other/contact" },
     { "name": "Delivery Information", "to": "/other/contact" },
     { "name": "Privacy Policy", "to": "/other/contact" },
     { "name": "Terms & Condition", "to": "/other/contact" }

@@ -1,15 +1,15 @@
 {
   "subTitle": {
-    "main": "About",
-    "span": "Eliah"
+    "main": "El resutaurante de",
+    "span": "Chensito"
   },
   "title": {
-    "main": "When You Look Good",
-    "span": "You Feel Good"
+    "main": "Eat Cheap",
+    "span": "Feel Good"
   },
-  "description": "The top three occupations in the Beauty salons Industry Group are Hairdressers, hairstylists, & cosmetologists, Manicurists and pedicurists, Receptionists & information clerks, Supervisors of personal care and service workers, and Skincare specialists.",
+  "description": "Distribuimos comida en todo Buenos Aires",
   "btn": {
-    "content": "Appointment",
+    "content": "Comprar",
     "color": "white"
   }
 }

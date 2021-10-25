@@ -20,15 +20,7 @@ export default function FooterOne() {
               </a>
             </Link>
           </div>
-          <div className="footer-one__header__newsletter">
-            <span>Subscribe Newletter:</span>
-            <SubcribeEmail
-              mailchimpUrl="https://jster.us7.list-manage.com/subscribe/post?u=ed40c0084a0c5ba31b3365d65&id=ec6f32bf5e"
-              placeholder="Enter your email"
-              btnContent={<i className="fas fa-paper-plane" />}
-              className="footer-one-newsletter"
-            />
-          </div>
+          
           <div className="footer-one__header__social">
             <SocialIcons className="-border" />
           </div>
@@ -55,7 +47,7 @@ export default function FooterOne() {
             <div className="col-12 col-md-6 col-lg-4">
               <div className="footer__section -links">
                 <div className="row">
-                  <div className="col-12 col-sm-6">
+                  {/* <div className="col-12 col-sm-6">
                     <h5 className="footer-title">Account</h5>
                     <ul>
                       {footerLinks.accountLinks.map((link, index) => (
@@ -66,7 +58,7 @@ export default function FooterOne() {
                         </li>
                       ))}
                     </ul>
-                  </div>
+                  </div> */}
                   <div className="col-12 col-sm-6">
                     <h5 className="footer-title">Infomation</h5>
                     <ul>
@@ -106,7 +98,7 @@ export default function FooterOne() {
       <div className="footer-one__footer">
         <div className="container">
           <div className="footer-one__footer__wrapper">
-            <p>© Copyright 2020 Beauty</p>
+            <p>© Copyright 2021</p>
             <ul>
               {footerLinks.creditLinks.map((link, index) => (
                 <li key={index}>
