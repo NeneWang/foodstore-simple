@@ -49,35 +49,7 @@ export default function ShopSidebar() {
           </ul>
         </div>
         <div className="shop-sidebar__section -refine">
-          <SectionTitleOne className="-medium" spaceBottom={30 / 16 + "em"}>
-            Refine Search
-          </SectionTitleOne>
-          <div className="shop-sidebar__section__item">
-            <h5>Brand</h5>
-            <ul>
-              {shop.BRANDS.map((item, index) => (
-                <li key={index}>
-                  <label htmlFor={"b-" + item}>
-                    <input
-                      name="brand-filter"
-                      type="checkbox"
-                      id={"b-" + item}
-                      value={item}
-                      checked={filterData.brand === item}
-                      onChange={() => {
-                        if (filterData.brand === item) {
-                          dispatch(setFilterBrand(""));
-                        } else {
-                          dispatch(setFilterBrand(item));
-                        }
-                      }}
-                    />
-                    {item}
-                  </label>
-                </li>
-              ))}
-            </ul>
-          </div>
+         
           <div className="shop-sidebar__section__item">
             <h5>Price</h5>
             <ul>
@@ -112,19 +84,6 @@ export default function ShopSidebar() {
               })}
             </ul>
           </div>
-        </div>
-        <div className="shop-sidebar__section">
-          <Link href={process.env.PUBLIC_URL + "/shop/fullwidth-4col"}>
-            <a className="shop-sidebar__section__banner">
-              <img
-                src={
-                  process.env.PUBLIC_URL +
-                  "/assets/images/shop/advertisment.png"
-                }
-                alt="ads"
-              />
-            </a>
-          </Link>
         </div>
       </div>
     </div>

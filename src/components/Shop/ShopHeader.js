@@ -38,7 +38,7 @@ export default function ShopHeader({
           </a>
         </div>
         {view === "grid" && (
-          <h5 className="shop-header__page">Shop Fullwidth 4 Columns</h5>
+          <h5 className="shop-header__page">Nuestro Menu</h5>
         )}
       </div>
       <Select options={shop.SORT_TYPES} getValue={getCurrentSort} />

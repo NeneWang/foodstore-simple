@@ -83,7 +83,7 @@ function Product({ data, type, className }) {
               </a>
             </Link>
             <div className="product__thumb__actions">
-              <div className="product-btn" data-tip data-for="cartIcon">
+              {/* <div className="product-btn" data-tip data-for="cartIcon">
                 <Button
                   height="50px"
                   width="50px"
@@ -101,7 +101,7 @@ function Product({ data, type, className }) {
               </div>
               <ReactTooltip id="cartIcon" type="dark" effect="solid">
                 <span>Add to Cart</span>
-              </ReactTooltip>
+              </ReactTooltip> */}
               <div className="product-btn" data-tip data-for="qvIcon">
                 <Button
                   height={50 / 14 + "em"}
@@ -119,7 +119,7 @@ function Product({ data, type, className }) {
               <ReactTooltip id="qvIcon" type="dark" effect="solid">
                 <span>Quick view</span>
               </ReactTooltip>
-              <div className="product-btn" data-tip data-for="wlIcon">
+              {/* <div className="product-btn" data-tip data-for="wlIcon">
                 <Button
                   height={50 / 14 + "em"}
                   width={50 / 14 + "em"}
@@ -134,13 +134,13 @@ function Product({ data, type, className }) {
               </div>
               <ReactTooltip id="wlIcon" type="dark" effect="solid">
                 <span>Add to Wishlist</span>
-              </ReactTooltip>
+              </ReactTooltip> */}
             </div>
           </div>
           <div className="product__content">
             <div className="product__content__header">
               <h5 className="product-category">{data.category}</h5>
-              <Rate currentRate={data.rate} />
+              {/* <Rate currentRate={data.rate} /> */}
             </div>
             <Link
               href={`${process.env.PUBLIC_URL}/shop/product/[slug]`}
