@@ -1,32 +1,8 @@
 [
   { "title": "About", "to": "/other/about" },
+  
   {
-    "title": "Shop",
-    "to": "/shop/fullwidth-4col",
-
-    "subMenu": [
-      { "title": "Shop Fullwidth 4 Columns", "to": "/shop/fullwidth-4col" },
-      { "title": "Shop Fullwidth 5 Columns", "to": "/shop/fullwidth-5col" },
-      {
-        "title": "Shop Fullwidth Left Sidebar",
-        "to": "/shop/fullwidth-left-sidebar"
-      },
-      {
-        "title": "Shop Fullwidth Right Sidebar",
-        "to": "/shop/fullwidth-right-sidebar"
-      },
-      { "title": "Shop grid 4 Columns", "to": "/shop/grid-4col" },
-      { "title": "Shop Grid 3 Columns", "to": "/shop/grid-3col" },
-      { "title": "Shop Grid Sideber", "to": "/shop/grid-sidebar" },
-      { "title": "Shop List Sidebar", "to": "/shop/list-sidebar" },
-      {
-        "title": "Product Detail",
-        "to": "#"
-      },
-      { "title": "Shopping cart", "to": "/shop/cart" },
-      { "title": "Checkout", "to": "/shop/checkout" },
-      { "title": "Wish list", "to": "/shop/wishlist" }
-    ]
+    "title": "Menu", "to": "/shop/fullwidth-left-sidebar"
   },
   { "title": "Contact", "to": "/other/contact" }
 ]

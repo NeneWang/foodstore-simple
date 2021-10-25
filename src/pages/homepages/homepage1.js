@@ -19,10 +19,6 @@ export default function homepage1() {
       <SliderTwo data={sliderData} className="-style-1" showDots />
       <IntroductionOne data={introductionOneData} />
       <IntroductionTwo data={introductionTwoData} />
-      <ProductSlideOne data={productSlideOneData} />
-      <TestimonialOne data={testimonialOneData} />
-      <TeamOne data={teamOneData} />
-      <CTAOne />
     </LayoutOne>
   );
 }
