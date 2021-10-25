@@ -5,7 +5,6 @@ import TopNavOne from "./TopNav/TopNavOne";
 export default function HeaderOne(props) {
   return (
     <>
-      <TopNavOne {...props} />
       <MenuOne {...props} />
     </>
   );

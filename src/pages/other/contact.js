@@ -31,7 +31,7 @@ export default function () {
                 ))}
             </div>
             <div className="col-12 col-md-6">
-              <h3 className="contact-title">Contactanos</h3>
+              <h3 className="contact-title">Contáctanos</h3>
               <div className="contact-form">
                 <form onSubmit={handleSubmit(onSubmit)}>
                   <div className="input-validator">

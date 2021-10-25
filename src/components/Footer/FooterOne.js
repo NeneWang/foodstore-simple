@@ -75,7 +75,7 @@ export default function FooterOne() {
               <div className="footer__section -payment">
                 <h5 className="footer-title">Métodos de Paga</h5>
                 <p>
-                  Aceptamos Mercado Puntos{" "}
+                  Aceptamos mercado puntos{" "}
                 </p>
                 <div className="payment-methods">
                   <img

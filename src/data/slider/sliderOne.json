@@ -1,10 +1,10 @@
 [
   {
-    "title": { "main": "Inner beauty out" },
-    "subTitle": "bringing you",
+    "title": { "main": "Mejor Comida Buenas Aires" },
+    "subTitle": "La mejor carne argentina",
     "image": "/assets/images/slider/SliderOne/1.png",
     "btn": {
-      "content": "Appointment",
+      "content": "Ver Comida",
       "color": "red"
     },
     "animationClass": {
@@ -14,25 +14,11 @@
     }
   },
   {
-    "title": { "main": "You feel good" },
-    "subTitle": "When you look good",
+    "title": { "main": "Comprar en Monto" },
+    "subTitle": "vendemos en monto",
     "image": "/assets/images/slider/SliderOne/2.png",
     "btn": {
-      "content": "Appointment",
-      "color": "red"
-    },
-    "animationClass": {
-      "title": "slider-one-title",
-      "subtitle": "slider-one-subtitle",
-      "button": "slider-one-button"
-    }
-  },
-  {
-    "title": { "main": "Beauty salon" },
-    "subTitle": "We make best makeup",
-    "image": "/assets/images/slider/SliderOne/3.png",
-    "btn": {
-      "content": "Appointment",
+      "content": "Ver Comida",
       "color": "red"
     },
     "animationClass": {
