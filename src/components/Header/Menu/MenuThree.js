@@ -19,7 +19,7 @@ export default function MenuThree({ hide, container }) {
             </a>
           </Link>
           <Navigator className="-white" />
-          <MenuFunctionIcons hide={hide} white className="-white" />
+          {/* <MenuFunctionIcons hide={hide} white className="-white" /> */}
         </div>
       </div>
     </div>
