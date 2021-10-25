@@ -23,8 +23,6 @@ export default function () {
         data={testimonialOneData}
         style={{ backgroundColor: "#fff", marginBottom: 0 }}
       />
-      <IntroductionNine />
-      <Benefits />
       <InstagramTwo />
     </LayoutFour>
   );
