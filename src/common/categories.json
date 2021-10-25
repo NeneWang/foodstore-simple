@@ -1,12 +1,15 @@
- {
-    "jamon":"jamon",
-    "Fiambre":"Fiambre",
-    "Salame":"Salame",
-    "Quesos":"Quesos",
-    "Barra":"Barra",
-    "Extra":"Extra",
-    "Cremoso":"Cremoso",
-    "Dulces":"Dulces",
-    "Aceitunas":"Aceitunas",
-    "Picados":"Picados"
+{
+    "default": "default",
+    "options": {
+        "Jamon": "Jamon",
+        "Fiambre": "Fiambre",
+        "Salame": "Salame",
+        "Quesos": "Quesos",
+        "Barra": "Barra",
+        "Extra": "Extra",
+        "Cremoso": "Cremoso",
+        "Dulces": "Dulces",
+        "Aceitunas": "Aceitunas",
+        "Picados": "Picados"
+    }
 }
