@@ -159,22 +159,7 @@ function Product({ data, type, className }) {
                   {formatCurrency(data.price)}
                 </h5>
               )}
-              {data.variation && (
-                <div className="product-colors">
-                  {data.variation.map((color, index) => (
-                    <div
-                      key={index}
-                      className={`product-colors__item ${classNames({
-                        active:
-                          otherColor &&
-                          otherColor.colorCode === color.colorCode,
-                      })}`}
-                      style={{ backgroundColor: color.colorCode }}
-                      onClick={() => setOtherColor(color)}
-                    />
-                  ))}
-                </div>
-              )}
+             
             </div>
           </div>
         </div>
@@ -225,22 +210,6 @@ function Product({ data, type, className }) {
                     </h5>
                   )}
                 </div>
-                {data.variation && (
-                  <div className="product-colors">
-                    {data.variation.map((color, index) => (
-                      <div
-                        key={index}
-                        className={`product-colors__item ${
-                          otherColor && otherColor.colorCode === color.colorCode
-                            ? "active"
-                            : ""
-                        }`}
-                        style={{ backgroundColor: color.colorCode }}
-                        onClick={() => setOtherColor(color)}
-                      />
-                    ))}
-                  </div>
-                )}
               </div>
             </div>
             <div className="product-list__content__bottom">
