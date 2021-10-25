@@ -11,7 +11,7 @@ export default function ProductQuickView({ data }) {
           <ProductDetailSlideOne data={data} />
         </div>
         <div className="col-12 col-md-6">
-          <ProductDetailInfo data={data} hideTab />
+        <ProductDetailInfo data={data} hideTab />
         </div>
       </div>
     </div>

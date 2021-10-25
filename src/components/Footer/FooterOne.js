@@ -29,10 +29,7 @@ export default function FooterOne() {
           <div className="row">
             <div className="col-12 col-md-6 col-lg-4">
               <div className="footer__section -info">
-                <h5 className="footer-title">Contact info</h5>
-                <p>
-                  Address: <span>{footerInfomation.address}</span>
-                </p>
+                <h5 className="footer-title">Información</h5>
                 <p>
                   Teléfono: <span>{footerInfomation.Teléfono}</span>
                 </p>
@@ -60,7 +57,7 @@ export default function FooterOne() {
                     </ul>
                   </div> */}
                   <div className="col-12 col-sm-6">
-                    <h5 className="footer-title">Infomation</h5>
+                    <h5 className="footer-title">Infomacion</h5>
                     <ul>
                       {footerLinks.informationLinks.map((link, index) => (
                         <li key={index}>
@@ -76,9 +73,9 @@ export default function FooterOne() {
             </div>
             <div className="col-12 col-lg-4">
               <div className="footer__section -payment">
-                <h5 className="footer-title">Metodos de Paga</h5>
+                <h5 className="footer-title">Métodos de Paga</h5>
                 <p>
-                  Acpetamos MercadoPuntos{" "}
+                  Aceptamos Mercado Puntos{" "}
                 </p>
                 <div className="payment-methods">
                   <img

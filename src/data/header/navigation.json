@@ -1,8 +1,13 @@
-[
-  { "title": "About", "to": "/other/about" },
-  
-  {
-    "title": "Menu", "to": "/shop/fullwidth-left-sidebar"
+[{
+    "title": "Sobre Nosotros",
+    "to": "/other/about"
   },
-  { "title": "Contact", "to": "/other/contact" }
+  {
+    "title": "Comida",
+    "to": "/comida"
+  },
+  {
+    "title": "Contáctanos",
+    "to": "/contact"
+  }
 ]
