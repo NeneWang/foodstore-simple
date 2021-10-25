@@ -46,7 +46,7 @@ export default function () {
                         type="text"
                         name="contact"
                         ref={register({ required: true })}
-                        placeholder="Email or mobile phone number"
+                        placeholder="Email or mobile Teléfono number"
                       />
                       {errors.contact && (
                         <span className="input-error">

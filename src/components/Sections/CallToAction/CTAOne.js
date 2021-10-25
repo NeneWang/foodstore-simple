@@ -41,13 +41,13 @@ export default function CTAOne() {
                 <div className="input-validator">
                   <input
                     type="text"
-                    placeholder="Your phone"
-                    name="phone"
+                    placeholder="Your Teléfono"
+                    name="Teléfono"
                     ref={register({ required: true })}
                   />
-                  {errors.phone && (
+                  {errors.Teléfono && (
                     <span className="input-error">
-                      Please provide a valid phone number
+                      Please provide a valid Teléfono number
                     </span>
                   )}
                 </div>

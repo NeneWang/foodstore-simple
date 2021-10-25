@@ -45,13 +45,13 @@ export default function CTATwo() {
                     <div className="input-validator">
                       <input
                         type="text"
-                        placeholder="Phone"
-                        name="phone"
+                        placeholder="Teléfono"
+                        name="Teléfono"
                         ref={register({ required: true })}
                       />
-                      {errors.phone && (
+                      {errors.Teléfono && (
                         <span className="input-error">
-                          Please provide a valid phone number
+                          Please provide a valid Teléfono number
                         </span>
                       )}
                     </div>

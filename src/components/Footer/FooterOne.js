@@ -34,13 +34,13 @@ export default function FooterOne() {
                   Address: <span>{footerInfomation.address}</span>
                 </p>
                 <p>
-                  Phone: <span>{footerInfomation.phone}</span>
+                  Teléfono: <span>{footerInfomation.Teléfono}</span>
                 </p>
                 <p>
                   Email: <span>{footerInfomation.email}</span>
                 </p>
                 <p>
-                  Opentime: <span>{footerInfomation.open}</span>
+                  Atendemos: <span>{footerInfomation.open}</span>
                 </p>
               </div>
             </div>
