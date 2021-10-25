@@ -5,7 +5,7 @@ export const getProducts = (products, category, type, limit) => {
     ? products.filter(
         (product) => {
           // TODO: Explode the commas and search if exists.
-          let productCategories = product.category.toLowerCase().split(",")
+          let productCategories = product.category.replace(/\s/g,'').toLowerCase().split(",")
           // console.log(productCategories);
           return productCategories.includes(category.toLowerCase());
         }

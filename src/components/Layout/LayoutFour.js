@@ -10,7 +10,7 @@ export default function LayoutFour(props) {
   return (
     <>
       <Head>
-        <title>{props.title || "Eliah | React"}</title>
+        <title>{props.title || "Tienda del Chen"}</title>
       </Head>
       <ScrollFixedHeader container={props.container} />
       {props.children}

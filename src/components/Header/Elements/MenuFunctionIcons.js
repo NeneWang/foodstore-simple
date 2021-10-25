@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function MenuFunctionIcons(props) {
   const cartState = useSelector((state) => state.cartReducer);
-  const hide = props.hide || "";
+  const hide = [props.hide, "search" ];
   const [showSearch, setShowSearch] = useState(false);
   const [showCart, setShowCart] = useState(false);
   const [showMobileNav, setShowMobileNav] = useState(false);
@@ -48,7 +48,7 @@ export default function MenuFunctionIcons(props) {
         )}
         {!hide.includes("cart") && (
           <>
-            <Link href={process.env.PUBLIC_URL + "/shop/wishlist"}>
+            {/* <Link href={process.env.PUBLIC_URL + "/shop/wishlist"}>
               <a className="menu-icon -wishlist">
                 <img
                   src={
@@ -61,8 +61,8 @@ export default function MenuFunctionIcons(props) {
                   alt="Wishlist icon"
                 />
               </a>
-            </Link>
-            <div className="menu__cart">
+            </Link> */}
+            {/* <div className="menu__cart">
               <a
                 href="#"
                 className="menu-icon -cart"
@@ -86,7 +86,7 @@ export default function MenuFunctionIcons(props) {
               <h5>
                 Cart: <span>{formatCurrency(calcalateTotal(cartState))}</span>
               </h5>
-            </div>
+            </div> */}
             <a
               href="#"
               className="menu-icon -navbar"
