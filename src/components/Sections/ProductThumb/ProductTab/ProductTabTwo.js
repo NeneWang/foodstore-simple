@@ -16,7 +16,7 @@ export default function ProductTabTwo({
   numberOfProducts,
 }) {
   const [currentCategory, setCurrentCategory] = useState(
-    categories ? categories[0] : "All"
+    categories ? categories[0] : "Todo"
   );
 
   let filteredProduct = getProducts(

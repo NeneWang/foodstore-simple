@@ -5,7 +5,7 @@ export default function TestimonialOne({ data, style }) {
   return (
     <div className="testimonial" style={style}>
       <div className="container">
-        <SectionTitleOne showSubTitle align="center" subTitle="Testimonial">
+        <SectionTitleOne showSubTitle align="center" subTitle="Testimonios">
           Que dice la gente de nosotros?
         </SectionTitleOne>
         <TestimonialSlider data={data} showArrows />

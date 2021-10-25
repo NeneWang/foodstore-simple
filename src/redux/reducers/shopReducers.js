@@ -2,7 +2,7 @@ import { SHOP } from "../variables";
 
 const initialState = {
   filter: {
-    category: "all",
+    category: "Todo",
     priceRange: {},
     brand: "",
   },
@@ -38,7 +38,7 @@ export default function shopReducer(state = initialState, action) {
       return {
         ...initialState,
         filter: {
-          category: "all",
+          category: "Todo",
           priceRange: {},
           brand: "",
         },

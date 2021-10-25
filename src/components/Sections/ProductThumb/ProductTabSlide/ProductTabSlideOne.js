@@ -49,7 +49,7 @@ export default function ProductTabSlideOne({ data }) {
     ],
   };
   const [currentCategory, setCurrentCategory] = useState(
-    categories ? categories[0] : "All"
+    categories ? categories[0] : "Todo"
   );
   let filteredProduct = getProducts(data, currentCategory, null, 8);
 
