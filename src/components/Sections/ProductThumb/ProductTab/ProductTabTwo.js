@@ -6,7 +6,7 @@ import { getProducts } from "../../../../common/productSelect";
 import Product from "../../../Product";
 import Button from "../../../Control/Button";
 
-const categories = ["All", "Eyes", "Face", "Lips"];
+const categories = ["Todo", "Eyes", "Face", "Lips"];
 
 export default function ProductTabTwo({
   data,

@@ -9,7 +9,7 @@ import { getProducts } from "../../../../common/productSelect";
 
 export default function ProductTabOne({ data, categories }) {
   const [currentCategory, setCurrentCategory] = useState(
-    categories ? categories[0] : "All"
+    categories ? categories[0] : "Todo"
   );
   let filteredProduct = getProducts(data, currentCategory, null, 8);
 

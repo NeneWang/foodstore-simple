@@ -1,6 +1,6 @@
 //get product
 export const getProducts = (products, category, type, limit) => {
-  category = category && category.toLowerCase() === "all" ? "" : category;
+  category = category && category.toLowerCase() === "todo" ? "" : category;
   const finalProducts = category
     ? products.filter(
         (product) => product.category.toLowerCase() === category.toLowerCase()
