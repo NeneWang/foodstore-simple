@@ -4,7 +4,7 @@ export const product = {
 
 
 export const shop = {
-  CATEGORISE: ["Todo", "Bebida", "Vegetariano","Comida"],
+  CATEGORISE: ["Todo", "Jamon", "Fiambre","Salame", "Quesos", "Barra", "Extra", "Cremoso", "Dulces", "Aceitunas", "Picados"],
   PRICE_POINTS: [0, 25, 50, 75, 100],
   SORT_TYPES: [
     { name: "Default", value: "default" },
