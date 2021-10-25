@@ -42,11 +42,11 @@ export default function ProductDetailInfo({ data, onReviewSubmit, hideTab }) {
         <h5>{data.category}</h5>
         <h2>{data.name}</h2>
         <div className="product-detail__content__header__comment-block">
-          <Rate currentRate={data.rate} />
-          <p>03 Reviews</p>
-          <Link href={process.env.PUBLUC_URL + "#"}>
+          {/* <Rate currentRate={data.rate} />
+          <p>03 Reviews</p> */}
+          {/* <Link href={process.env.PUBLUC_URL + "#"}>
             <a>Write a reviews</a>
-          </Link>
+          </Link> */}
         </div>
         <h3>
           {data.discount
@@ -59,45 +59,24 @@ export default function ProductDetailInfo({ data, onReviewSubmit, hideTab }) {
       <div className="product-detail__content__footer">
         <ul>
           <li>
-            Brand: <span>{data.brand}</span>
+            Codigo de Producto: <span>{data.code}</span>
           </li>
           <li>
-            Product code: <span>{data.code}</span>
-          </li>
-          <li>
-            Reward point: <span>{data.point}</span>
-          </li>
-          <li>
-            Availability:
+            Availabilidad:
             {data.quantity > 0 ? (
-              <span className="in-stock"> In Stock</span>
+              <span className="in-stock"> Disponible</span>
             ) : (
-              <span className="out-stock"> Out Stock</span>
+              <span className="out-stock"> Sin Stock</span>
             )}
           </li>
         </ul>
-        {data.variation && (
-          <div className="product-detail__colors">
-            <span>Color:</span>
-            {data.variation.map((color, index) => (
-              <div
-                key={index}
-                className={`product-detail__colors__item ${classNames({
-                  active: otherColor === color.color,
-                })}`}
-                style={{ backgroundColor: color.colorCode }}
-                onClick={() => setOtherColor(color.color)}
-              />
-            ))}
-          </div>
-        )}
-        <ProductDetailController
+        {/* <ProductDetailController
           data={data}
           getQuantity={getQuantity}
           onAddToCart={onAddToCart}
           onAddToWishList={onAddToWishList}
           color={otherColor}
-        />
+        /> */}
       </div>
       {!hideTab && (
         <>
