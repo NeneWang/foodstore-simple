@@ -11,7 +11,7 @@ export default function FooterOne() {
       <div className="container">
         <div className="footer-one__header">
           <div className="footer-one__header__logo">
-            <Link href={process.env.PUBLIC_URL + "/index"}>
+            <Link href={process.env.PUBLIC_URL + "index"}>
               <a>
                 <img
                   src={process.env.PUBLIC_URL + "/assets/images/logo.png"}

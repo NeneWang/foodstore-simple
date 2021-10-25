@@ -7,7 +7,7 @@ import MenuFunctionIcons from "../Elements/MenuFunctionIcons";
 import { renderContainer } from "../../../common/utils";
 
 const data = [
-  { title: "Home", to: "//index" },
+  { title: "Home", to: "/index" },
   { title: "About", to: "/other/about" },
   { title: "Shop", to: "/shop/fullwidth-4col" },
   { title: "Gallery", to: "/other/about" },
@@ -31,7 +31,7 @@ export default function MenuSix({ container }) {
                 </li>
               ))}
             </ul>
-            <Link href={process.env.PUBLIC_URL + "//index"}>
+            <Link href={process.env.PUBLIC_URL + "/index"}>
               <a className="menu__wrapper__logo">
                 <img src="/assets/images/logo.png" alt="Logo" />
               </a>
