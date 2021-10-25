@@ -1,10 +1,5 @@
 [
   {
-    "iconClass": "fas fa-map-marker-alt",
-    "title": "Address",
-    "detail": "2168 S Archer Ave, Chicago, IL 60616, US"
-  },
-  {
     "iconClass": "fas fa-phone-alt",
     "title": "Teléfono",
     "detail": "+1 312-808-1999     |     +1 233-688-8999"
