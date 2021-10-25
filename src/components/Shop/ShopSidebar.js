@@ -24,7 +24,7 @@ export default function ShopSidebar() {
       <div className="shop-sidebar__content">
         <div className="shop-sidebar__section -categories">
           <SectionTitleOne className="-medium" spaceBottom={30 / 16 + "em"}>
-            Categories
+            Categorias
           </SectionTitleOne>
           <ul>
             {shop.CATEGORISE.map((item, index) => (
@@ -51,7 +51,7 @@ export default function ShopSidebar() {
         <div className="shop-sidebar__section -refine">
          
           <div className="shop-sidebar__section__item">
-            <h5>Price</h5>
+            <h5>Precio</h5>
             <ul>
               {shop.PRICE_POINTS.map((item, index) => {
                 let nextVal = shop.PRICE_POINTS[index + 1];

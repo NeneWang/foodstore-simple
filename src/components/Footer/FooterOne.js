@@ -76,10 +76,9 @@ export default function FooterOne() {
             </div>
             <div className="col-12 col-lg-4">
               <div className="footer__section -payment">
-                <h5 className="footer-title">Payment methods</h5>
+                <h5 className="footer-title">Metodos de Paga</h5>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                  gravida facilisis.{" "}
+                  Acpetamos MercadoPuntos{" "}
                 </p>
                 <div className="payment-methods">
                   <img
