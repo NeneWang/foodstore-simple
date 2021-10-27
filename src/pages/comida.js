@@ -30,6 +30,11 @@ function Comida({productData}) {
     );
     setCurrentData(sortedProduct);
   }, [offset, currentSort, filterData]);
+
+  
+  console.log(productData.map(x => {
+    return x.code;
+  }))
   return (
     <LayoutFour title="Comida" container="wide">
       <Breadcrumb title="Menu de Comida">
@@ -83,7 +88,6 @@ function Comida({productData}) {
 export async function getStaticProps() {
   const res = await fetch('https://food-admin.wangnelson.xyz/public/api/products')
   const productData = await res.json()
-
   return {
     props: {
       productData,
