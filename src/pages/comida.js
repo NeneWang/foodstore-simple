@@ -5,13 +5,13 @@ import Paginator from "react-hooks-paginator";
 import { Breadcrumb, BreadcrumbItem } from "../components/Other/Breadcrumb";
 import { getProductbyFilter } from "../common/productSelect";
 import LayoutFour from "../components/Layout/LayoutFour";
-import productData from "../data/products.json";
+// import productData from "../data/products.json";
 import ShopProducts from "../components/Shop/ShopProducts";
 import ShopHeader from "../components/Shop/ShopHeader";
 import InstagramTwo from "../components/Sections/Instagram/InstagramTwo";
 import ShopSidebar from "../components/Shop/ShopSidebar";
 
-export default function () {
+function Comida({productData}) {
   const filterData = useSelector((state) => state.shopReducers.filter);
   const pageLimit = 12;
   const [offset, setOffset] = useState(0);
@@ -78,3 +78,18 @@ export default function () {
     </LayoutFour>
   );
 }
+
+
+export async function getStaticProps() {
+  const res = await fetch('https://food-admin.wangnelson.xyz/public/api/products')
+  const productData = await res.json()
+
+  return {
+    props: {
+      productData,
+    },
+  }
+}
+
+
+export default Comida
