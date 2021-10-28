@@ -32,9 +32,6 @@ function Comida({productData}) {
   }, [offset, currentSort, filterData]);
 
   
-  console.log(productData.map(x => {
-    return x.code;
-  }))
   return (
     <LayoutFour title="Comida" container="wide">
       <Breadcrumb title="Menu de Comida">
