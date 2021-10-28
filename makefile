@@ -7,7 +7,22 @@ FTP_HOST=wangnancy.com
 FTP_USER=admin@food-store.evildorm.com
 FTP_PASSWORD=darkarior448
 
+main: build-commit ft-push
 
+
+build-commit:
+	yarn run build
+	yarn run export
+	git add --all
+	git commit -m "Production update | ${v}"	
+	git push origin HEAD
+
+build-commit-donpush:
+	yarn run build
+	yarn run export
+	yarn build
+	git add --all
+	git commit -m "Production update | ${v}"
 
 cap:
 	git coa "${m}"
