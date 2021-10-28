@@ -14,14 +14,20 @@ import ProductSlideTwo from "../../../components/Sections/ProductThumb/ProductSl
 function SlugPage({products}) {
   const router = useRouter();
   const { slug } = router.query;
-  let foundProduct = getProductBySlug(products, slug);
-  // const onReviewSubmit = (data) => {
-  //   console.log(data);
-  // };
+  let foundProduct = getSpecificPost(products, slug);
+
+
+  const onReviewSubmit = (data) => {
+    console.log(data);
+  };
+
+  console.log(getSpecificPost(products, slug))
+
+  console.log(products)
   return (
     true && (
       <LayoutFour title={foundProduct.name}>
-        <Breadcrumb title="Product Detail">
+        <Breadcrumb title={foundProduct.name}>
           <BreadcrumbItem name="Home" />
           <BreadcrumbItem name="Shop" />
           <BreadcrumbItem name={foundProduct.name} current />
@@ -30,8 +36,7 @@ function SlugPage({products}) {
         <ProductSlideTwo data={products} />
         <InstagramTwo />
       </LayoutFour>
-    )
-  );
+    ))
 }
 
 
@@ -45,6 +50,14 @@ export async function getStaticProps() {
       products,
     },
   }
+}
+
+function getSpecificPost(products, slug){
+    // const allPosts = getAllPosts();
+  
+    const getSpecificproductItem = products.find(productItem => productItem.code === slug );
+  
+    return getSpecificproductItem;
 }
 
 
