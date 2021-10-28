@@ -11,7 +11,7 @@ export default function ProductDetailInfoTab({ data, onReviewSubmit }) {
       <Tabs className="product-detail__tab__content">
         <TabList className="tab__content__header">
           <Tab>Descripción</Tab>
-          <Tab>Envio</Tab>
+          <Tab>Delivery & Devoluciones</Tab>
          {/*  <Tab>Reviews ( 03 )</Tab> */}
         </TabList>
 
@@ -27,6 +27,9 @@ export default function ProductDetailInfoTab({ data, onReviewSubmit }) {
           <ul>
             <li>
               Envio es incluido en la compra por mayor
+            </li>
+            <li>
+              Enviamos a toda Capital Buenos Aires sin de costo.
             </li>
           </ul>
           <h5>Devoluciones</h5>
