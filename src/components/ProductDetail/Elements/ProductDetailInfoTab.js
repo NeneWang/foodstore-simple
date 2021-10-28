@@ -3,45 +3,38 @@ import { useForm } from "react-hook-form";
 
 import Review from "../../Control/Review";
 
-export default function ProductDetailInfoTab({ onReviewSubmit }) {
+export default function ProductDetailInfoTab({ data, onReviewSubmit }) {
   const { register, handleSubmit, errors } = useForm();
+  console.log(data);
   return (
     <div className="product-detail__tab">
       <Tabs className="product-detail__tab__content">
         <TabList className="tab__content__header">
-          <Tab>Description</Tab>
-          <Tab>Shipping & Returns</Tab>
-          <Tab>Reviews ( 03 )</Tab>
+          <Tab>Descripción</Tab>
+          <Tab>Envio</Tab>
+         {/*  <Tab>Reviews ( 03 )</Tab> */}
         </TabList>
 
         <TabPanel className="tab__content__item -description">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-            accumsan lacus vel facilisis.
+           {data.description}
           </p>
         </TabPanel>
         <TabPanel className="tab__content__item -ship">
           <h5>
-            <span>Ship to </span>New York
+            <span>Enviar a  </span>Capital Federal Buenos Aires
           </h5>
           <ul>
             <li>
-              Standard Shipping on order over 0kg - 5kg. <span>+10.00</span>
-            </li>
-            <li>
-              Heavy Goods Shipping on oder over 5kg-10kg . <span>+20.00</span>
+              Envio es incluido en la compra por mayor
             </li>
           </ul>
-          <h5>Delivery & returns</h5>
+          <h5>Devoluciones</h5>
           <p>
-            We diliver to over 100 countries around the word. For full details
-            of the delivery options we offer, please view our Delivery
-            information.
+            Aseguramos 100% calidad, si hay alguna falla, hay devolucion gratuita sin preguntas.
           </p>
         </TabPanel>
-        <TabPanel className="tab__content__item -review">
+       {/*  <TabPanel className="tab__content__item -review">
           <Review
             avatar="https://i1.wp.com/metro.co.uk/wp-content/uploads/2020/03/GettyImages-1211127989.jpg?quality=90&strip=all&zoom=1&resize=644%2C416&ssl=1"
             name="Zachary Wade"
@@ -96,7 +89,7 @@ export default function ProductDetailInfoTab({ onReviewSubmit }) {
               </div>
             </div>
           </form>
-        </TabPanel>
+        </TabPanel> */}
       </Tabs>
     </div>
   );
