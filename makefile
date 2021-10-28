@@ -3,7 +3,7 @@ PAGE=ftp://ftp.wangnelson.xyz
 THIS_BRANCH=master
 MASTER_BRANCH=master
 DEPLOY_BRANCH=deployment
-FTP_HOST=ftp.wangnancy.com
+FTP_HOST=wangnancy.com
 FTP_USER=admin@food-store.evildorm.com
 FTP_PASSWORD=darkarior448
 
