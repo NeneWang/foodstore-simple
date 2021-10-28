@@ -31,7 +31,7 @@ function Comida({productData}) {
     setCurrentData(sortedProduct);
   }, [offset, currentSort, filterData]);
 
-  console.log(productData);
+  // console.log(productData);
   return (
     <LayoutFour title="Comida" container="wide">
       <Breadcrumb title="Menu de Comida">

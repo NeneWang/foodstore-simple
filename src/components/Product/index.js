@@ -67,7 +67,7 @@ function Product({ data, type, className }) {
           <div className="product__thumb">
             <Link
               href={`${process.env.PUBLIC_URL}/shop/product/[slug]`}
-              as={`${process.env.PUBLIC_URL}/shop/product/${data.slug}`}
+              as={`${process.env.PUBLIC_URL}/shop/product/${data.code}`}
             >
               <a className="product__thumb__image">
                 {data.thumbImage.map((img, index) => (
@@ -144,7 +144,7 @@ function Product({ data, type, className }) {
             </div>
             <Link
               href={`${process.env.PUBLIC_URL}/shop/product/[slug]`}
-              as={`${process.env.PUBLIC_URL}/shop/product/${data.slug}`}
+              as={`${process.env.PUBLIC_URL}/shop/product/${data.code}`}
             >
               <a className="product-name">{data.name}</a>
             </Link>
@@ -169,7 +169,7 @@ function Product({ data, type, className }) {
             <div className="product-type">{renderType()}</div>
             <Link
               href={`${process.env.PUBLIC_URL}/shop/product/[slug]`}
-              as={`${process.env.PUBLIC_URL}/shop/product/${data.slug}`}
+              as={`${process.env.PUBLIC_URL}/shop/product/${data.code}`}
             >
               <a className="product-list__thumb__image">
                 {data.thumbImage.map((img, index) => (
@@ -193,7 +193,7 @@ function Product({ data, type, className }) {
               </div>
               <Link
                 href={`${process.env.PUBLIC_URL}/shop/product/[slug]`}
-                as={`${process.env.PUBLIC_URL}/shop/product/${data.slug}`}
+                as={`${process.env.PUBLIC_URL}/shop/product/${data.code}`}
               >
                 <a className="product-name">{data.name}</a>
               </Link>
