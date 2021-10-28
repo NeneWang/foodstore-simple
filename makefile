@@ -51,6 +51,7 @@ ft-configpush:
 	git config git-ftp.url ftp.${FTP_HOST}
 	git config git-ftp.user ${FTP_USER}
 	git config git-ftp.password ${FTP_PASSWORD}
+	git config git-ftp.syncroot out/
 	git ftp push --force
 
 
@@ -58,6 +59,7 @@ ftpinit:
 	git config git-ftp.url ftp.${FTP_HOST}
 	git config git-ftp.user ${FTP_USER}
 	git config git-ftp.password ${FTP_PASSWORD}
+	git config git-ftp.syncroot out/
 
 first-deploy:
 	make ftpinit
