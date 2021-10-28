@@ -1,5 +1,5 @@
 module.exports = {
   env: {
-    PUBLIC_URL: "",
+    PUBLIC_URL: "https://food-store.evildorm.com",
   },
 };
