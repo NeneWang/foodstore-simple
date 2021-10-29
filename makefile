@@ -63,6 +63,7 @@ ft-push:
 	echo "open in ${PAGE}" && git log -n 2
 	
 ft-configpush:
+	npm install
 	git config git-ftp.url ftp.${FTP_HOST}
 	git config git-ftp.user ${FTP_USER}
 	git config git-ftp.password ${FTP_PASSWORD}
