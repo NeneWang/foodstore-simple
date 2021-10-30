@@ -18,7 +18,6 @@ build-commit:
 	git push origin HEAD
 
 build-commit-donpush:
-	yarn install
 	yarn run build
 	yarn run export
 	yarn build
