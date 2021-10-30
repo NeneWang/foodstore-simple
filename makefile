@@ -18,6 +18,7 @@ build-commit:
 	git push origin HEAD
 
 build-commit-donpush:
+	yarn install
 	yarn run build
 	yarn run export
 	yarn build
@@ -63,7 +64,6 @@ ft-push:
 	echo "open in ${PAGE}" && git log -n 2
 	
 ft-configpush:
-	npm install
 	git config git-ftp.url ftp.${FTP_HOST}
 	git config git-ftp.user ${FTP_USER}
 	git config git-ftp.password ${FTP_PASSWORD}
