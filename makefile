@@ -18,7 +18,7 @@ build-commit:
 	git push origin HEAD
 
 build-commit-donpush:
-	yarn add next react
+	yarn install
 	yarn run build
 	yarn run export
 	yarn build
