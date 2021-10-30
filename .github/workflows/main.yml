@@ -4,24 +4,25 @@ on:
 
 jobs:
   build:
+    name: Build and test
+
     runs-on: ubuntu-latest
+
     steps:
-      - name: Use Node.js ⚙️
-        uses: actions/setup-node@v2
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - uses: borales/actions-yarn@v2.0.0
         with:
-          node-version: '14'
-      - uses: actions/checkout@v2  
-      - uses: borales/actions-yarn@v2.3.0
+          cmd: install
+
+      - uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: install # will run `yarn install` command
-      - uses: borales/actions-yarn@v2.3.0
+          cmd: build
+
+      - uses: borales/actions-yarn@v2.0.0
         with:
-          cmd: build # will run `yarn build` command
-      - uses: borales/actions-yarn@v2.3.0
-        with:
-          cmd: test # will run `yarn test` command 
-      - name: Install dependencies 📦
-        run: yarn install --frozen-lockfile
+          cmd: test
       - name: Run Makefile deploy
         run: |
           git config --global user.name "nenewang"
