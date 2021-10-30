@@ -21,7 +21,6 @@ build-commit-donpush:
 	yarn install
 	yarn run build
 	yarn run export
-	yarn build
 	git add --all
 	git commit -m "Production update | ${v}"
 
