@@ -22,7 +22,7 @@ build-commit-donpush:
 	yarn run build
 	yarn run export
 	git add --all
-	git commit -m "Production update | ${v}"
+	git commit -m "Production update "
 
 cap:
 	git coa "${m}"
