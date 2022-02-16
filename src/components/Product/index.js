@@ -64,7 +64,7 @@ function Product({ data, type, className }) {
       {!type || type === "grid" ? (
         <div className={`product ${classNames(className)}`}>
           <div className="product-type">{renderType()}</div>
-          <div className="product__thumb">
+          <div className="height250 ">
             <Link
               href={`${process.env.PUBLIC_URL}/shop/product/[slug]`}
               as={`${process.env.PUBLIC_URL}/shop/product/${data.code}`}
@@ -74,6 +74,7 @@ function Product({ data, type, className }) {
                   <img
                     key={index}
                     src={process.env.PUBLIC_URL + img}
+                    className="containImage"
                     alt="Product image"
                   />
                 ))}

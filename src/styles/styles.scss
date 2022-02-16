@@ -72,3 +72,12 @@
 @import "pages/services";
 @import "pages/shop";
 @import "pages/wishlist";
+
+
+.height250 {
+    height: 250px !important;
+    
+}
+.product__thumb__image img{
+    object-fit: contain!important;
+}
