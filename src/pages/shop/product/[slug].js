@@ -11,6 +11,8 @@ import {
 } from "../../../components/Other/Breadcrumb";
 import ProductSlideTwo from "../../../components/Sections/ProductThumb/ProductSlide/ProductSlideTwo";
 
+import data from './data.json';
+
 function SlugPage({products}) {
   const router = useRouter();
   const { slug } = router.query;
@@ -42,8 +44,8 @@ function SlugPage({products}) {
 
 
 export async function getStaticProps() {
-  const res = await fetch('https://food-admin.wangnelson.xyz/public/api/products')
-  const products = await res.json()
+  // const res = await fetch('https://food-admin.wangnelson.xyz/public/api/products')
+  const products = data
 
   return {
     props: {
@@ -65,8 +67,8 @@ export async function getStaticPaths() {
 
   // const postFilenames = getPostsFiles();
 
-  const res = await fetch('https://food-admin.wangnelson.xyz/public/api/products')
-  const products = await res.json()
+  // const res = await fetch('https://food-admin.wangnelson.xyz/public/api/products')
+  const products = data;
   // console.log(products);
   const slugs = products.map(x => {
     return x.code;
