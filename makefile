@@ -7,8 +7,10 @@ FTP_HOST=wangnancy.com
 FTP_USER=admin@food-store.evildorm.com
 FTP_PASSWORD=darkarior448
 
-main: build-commit ft-push
+main: update-data build-commit ft-push
 
+update-data:
+	curl "https://food-admin.wangnelson.xyz/public/api/products" > ./src/pages/shop/product/data.json
 
 build-commit:
 	yarn run build
