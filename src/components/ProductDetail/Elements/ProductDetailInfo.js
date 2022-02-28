@@ -64,7 +64,7 @@ export default function ProductDetailInfo({ data, onReviewSubmit, hideTab }) {
           <li>
             Availabilidad:
             {data.quantity > 0 ? (
-              <span className="in-stock"> Disponible</span>
+              <span className="in-stock"> {data.status == "DISPONIBLE" ? "Disponible" : "Agotado"}</span>
             ) : (
               <span className="out-stock"> Sin Stock</span>
             )}
