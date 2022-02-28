@@ -4,7 +4,7 @@ export const product = {
 import data from './categories.json';
 
 export const shop = {
-  CATEGORISE: Object.keys(data.options),
+  CATEGORISE: ["Todo"].concat(Object.keys(data.options)),
   PRICE_POINTS: [0, 25, 50, 75, 100],
   SORT_TYPES: [
     { name: "Default", value: "default" },
