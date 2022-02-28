@@ -1,10 +1,10 @@
 export const product = {
   DEFAULT_QUANTITY: 1,
 };
-
+import data from './categories.json';
 
 export const shop = {
-  CATEGORISE: ["Todo", "Jamon", "Fiambre","Salame", "Quesos", "Barra", "Extra", "Cremoso", "Dulces", "Aceitunas", "Picados"],
+  CATEGORISE: Object.keys(data.options),
   PRICE_POINTS: [0, 25, 50, 75, 100],
   SORT_TYPES: [
     { name: "Default", value: "default" },

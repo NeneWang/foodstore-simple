@@ -68,6 +68,8 @@ export default function ProductDetailInfo({ data, onReviewSubmit, hideTab }) {
             ) : (
               <span className="out-stock"> Sin Stock</span>
             )}
+
+            {data.hasPromo ? data.hasPromo : ""}
           </li>
         </ul>
         {/* <ProductDetailController
