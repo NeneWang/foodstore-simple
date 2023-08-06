@@ -21,20 +21,6 @@ export default function MobileNavSidebar({ showMobileNav, setShowMobileNav }) {
         >
           <div className="navigation-sidebar">
             <div className="search-box">
-              {/* <form>
-                <input
-                  type="text"
-                  placeholder="What are you looking for?"
-                  value={searchInput}
-                  onChange={(e) => setSearchInput(e.target.value)}
-                />
-                <button>
-                  <img
-                    src="/assets/images/header/search-icon.png"
-                    alt="Search icon"
-                  />
-                </button>
-              </form> */}
             </div>
             <NavigatorMobile />
             <div className="navigation-sidebar__footer">
@@ -49,7 +35,8 @@ export default function MobileNavSidebar({ showMobileNav, setShowMobileNav }) {
                 className="-borderless"
               />
               <a className="navigation-sidebar__footer__auth">Login/Register</a> */}
-              <SocialIcons />
+              {/* <SocialIcons /> */}
+              
             </div>
           </div>
         </CSSTransition>

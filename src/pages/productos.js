@@ -33,7 +33,7 @@ function Comida({productData}) {
 
   // console.log(productData);
   return (
-    <LayoutFour title="Comida" container="wide">
+    <LayoutFour title="Productos" container="wide">
       <Breadcrumb title="Productos">
         {/* <BreadcrumbItem name="Home" />
         <BreadcrumbItem name="Comida" current /> */}
