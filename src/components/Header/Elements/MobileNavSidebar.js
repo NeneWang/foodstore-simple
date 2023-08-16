@@ -24,19 +24,7 @@ export default function MobileNavSidebar({ showMobileNav, setShowMobileNav }) {
             </div>
             <NavigatorMobile />
             <div className="navigation-sidebar__footer">
-              {/* <Select
-                options={["USD", "VND", "YEN"]}
-                getValue={(val) => setCurrency(val)}
-                className="-borderless"
-              />
-              <Select
-                options={["ENG", "VI", "JP"]}
-                getValue={(val) => setLanguage(val)}
-                className="-borderless"
-              />
-              <a className="navigation-sidebar__footer__auth">Login/Register</a> */}
-              {/* <SocialIcons /> */}
-              
+
             </div>
           </div>
         </CSSTransition>
