@@ -26,30 +26,45 @@ export default function ShopSidebar() {
           <SectionTitleOne className="-medium" spaceBottom={30 / 16 + "em"}>
             Categorias
           </SectionTitleOne>
-          <ul>
-            {shop.CATEGORISE.map((item, index) => (
-              <li
-                key={index}
-                className={classNames({
-                  active: item === filterData.category,
-                })}
-              >
-                <Link href={process.env.PUBLIC_URL + "#"} key={index}>
-                  <a
-                    onClick={(e) => {
-                      e.preventDefault();
-                      dispatch(setFilterCategory(item));
-                    }}
-                  >
-                    {item}
-                  </a>
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <div className="container">
+            <div className="row">
+              {[...Array(3)].map((_, divisionIndex) => (
+                <div key={divisionIndex} className="col-3 col-md-12">
+                  <ul>
+                    {shop.CATEGORISE
+                      .slice(
+                        divisionIndex * Math.ceil(shop.CATEGORISE.length / 3),
+                        (divisionIndex + 1) * Math.ceil(shop.CATEGORISE.length / 3)
+                      )
+                      .map((item, index) => (
+                        <li
+                          key={index}
+                          className={classNames({
+                            active: item === filterData.category,
+                          })}
+                        >
+                          <Link href={process.env.PUBLIC_URL + "#"} key={index}>
+                            <a
+                              onClick={(e) => {
+                                e.preventDefault();
+                                dispatch(setFilterCategory(item));
+                              }}
+                            >
+                              {item}
+                            </a>
+                          </Link>
+                        </li>
+                      ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+
+
         </div>
         <div className="shop-sidebar__section -refine">
-         
+
         </div>
       </div>
     </div>
