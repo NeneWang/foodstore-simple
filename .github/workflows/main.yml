@@ -22,4 +22,5 @@ jobs:
         run: |
           git config --global user.name "nenewang"
           make build-commit-donpush
-          make ft-configpush
+      - name: Pushing Changes
+        run: make ft-configpush
