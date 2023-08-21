@@ -21,7 +21,7 @@ export default function FooterOne() {
               </a>
             </Link>
           </div> */}
-          
+
           {/* <div className="footer-one__header__social">
             <SocialIcons className="-border" />
           </div> */}
@@ -32,10 +32,7 @@ export default function FooterOne() {
               <div className="footer__section -info">
                 <h5 className="footer-title">Información</h5>
                 <p>
-                  Teléfono: <span>{footerInfomation.Teléfono}</span>
-                </p>
-                <p>
-                  Email: <span>{footerInfomation.email}</span>
+                  Whatsapp: <span>{footerInfomation.Teléfono}</span>
                 </p>
                 <p>
                   Atendemos: <span>{footerInfomation.open}</span>
@@ -45,6 +42,7 @@ export default function FooterOne() {
             <div className="col-12 col-md-6 col-lg-4">
               <div className="footer__section -links">
                 <div className="row">
+                <img src="/assets/images/qr.png" alt="" width="200" />
                   {/* <div className="col-12 col-sm-6">
                     <h5 className="footer-title">Account</h5>
                     <ul>
@@ -64,7 +62,7 @@ export default function FooterOne() {
               <div className="footer__section -payment">
                 <h5 className="footer-title">Métodos de Paga</h5>
                 <p>
-                  Aceptamos mercado puntos{" "}
+                  Aceptamos Mercado Pago y efectivo
                 </p>
                 <div className="payment-methods">
                   <img

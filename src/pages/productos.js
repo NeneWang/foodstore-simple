@@ -13,7 +13,7 @@ import ShopSidebar from "../components/Shop/ShopSidebar";
 
 function Comida({productData}) {
   const filterData = useSelector((state) => state.shopReducers.filter);
-  const pageLimit = 12;
+  const pageLimit = 40;
   const [offset, setOffset] = useState(0);
   const [currentView, setCurrentView] = useState();
   const [currentSort, setCurrentSort] = useState();

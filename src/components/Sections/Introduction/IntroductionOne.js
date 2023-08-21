@@ -18,18 +18,22 @@ export default function IntroductionOne({ data }) {
   return (
     <div className="introduction-one">
       <div className="container">
+        <div className="pt-2"></div>
         <div className="row align-items-center">
           <div className="col-12 col-md-6">
             <div className="introduction-one__image">
               <div className="introduction-one__image__detail">
-                <img
+                
+                {/* <img
                   src="/assets/images/introduction/IntroductionOne/img1.png"
                   alt="background"
-                />
-                <img
+                /> */}
+                {/* <img
                   src="/assets/images/introduction/IntroductionOne/img2.png"
                   alt="background"
-                />
+                /> */}
+                <img src="/assets/images/circled-logo.png" alt="background"/>
+                <img src="/assets/images/qr.png" alt="background"/>
               </div>
               <div className="wrapper">
                 <div className="introduction-one__image__background">
@@ -63,15 +67,16 @@ export default function IntroductionOne({ data }) {
                 {data.subTitle.main} <span>{data.subTitle.span}</span>
               </h5>
               <SectionTitleOne spaceBottom="1.875em">
-                {data.title.main}
+                {/* {data.title.main} */}
                 <br />
-                {data.title.span}
+                Buenos Aires
+                {/* {data.title.span} */}
               </SectionTitleOne>
               <p>{data.description}</p>
               <Button
                 color={data.btn.color}
                 content={data.btn.content}
-                action=""
+                action="/productos"
               />
             </div>
           </div>

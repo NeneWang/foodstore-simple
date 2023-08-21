@@ -29,6 +29,11 @@ export default function () {
                   />
                 ))}
             </div>
+            {/* Put the qr here */}
+            <div className="col-12 col-md-6">
+                  <img src="/assets/images/qr.png" alt="" />
+            </div>
+
             {/* <div className="col-12 col-md-6">
               <h3 className="contact-title">Contáctanos</h3>
               <div className="contact-form">
@@ -86,7 +91,7 @@ export default function () {
           </div>
         </div>
       </div>
-      <InstagramTwo />
+      {/* <InstagramTwo /> */}
     </LayoutFour>
   );
 }

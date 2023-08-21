@@ -1,17 +1,12 @@
 [
   {
     "iconClass": "fas fa-phone-alt",
-    "title": "Teléfono",
-    "detail": "+1 312-808-1999     |     +1 233-688-8999"
-  },
-  {
-    "iconClass": "far fa-envelope",
-    "title": "Email",
-    "detail": "Beatycosmetics@gmail.com"
+    "title": "Whatsapp",
+    "detail": "1178888800"
   },
   {
     "iconClass": "far fa-clock",
     "title": "Atendemos",
-    "detail": "Sun-Sat: 8.00am - 9.00.pm"
+    "detail": "Sun-Sat: 9.00am - 6.00pm"
   }
 ]

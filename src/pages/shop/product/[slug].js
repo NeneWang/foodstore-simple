@@ -30,8 +30,7 @@ function SlugPage({products}) {
     true && (
       <LayoutFour title={foundProduct.name}>
         <Breadcrumb title={foundProduct.name}>
-          <BreadcrumbItem name="Home" />
-          <BreadcrumbItem name="Shop" />
+          <BreadcrumbItem name="Productos" />
           <BreadcrumbItem name={foundProduct.name} current />
         </Breadcrumb>
         <ProductDetail data={foundProduct} onReviewSubmit={onReviewSubmit} />
