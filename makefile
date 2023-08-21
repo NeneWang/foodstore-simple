@@ -3,9 +3,9 @@ PAGE=ftp://ftp.wangnelson.xyz
 THIS_BRANCH=master
 MASTER_BRANCH=master
 DEPLOY_BRANCH=deployment
-FTP_HOST=wangnancy.com
-FTP_USER=admin@food-store.evildorm.com
-FTP_PASSWORD=darkarior448
+FTP_HOST=wngnelson.com
+FTP_USER=u851203827.abindistr.com
+FTP_PASSWORD=Admin123
 
 main: update-data build-commit ft-push
 
