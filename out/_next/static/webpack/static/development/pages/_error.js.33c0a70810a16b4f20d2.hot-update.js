@@ -1,8 +1,8 @@
 webpackHotUpdate("static\\development\\pages\\_error.js",{
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5CEliah-ReactNext%5Celiah%5Csrc%5Cpages%5C_error.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5Cbin-ReactNext%5Cbin%5Csrc%5Cpages%5C_error.js!./":
 /*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5CEliah-ReactNext%5Celiah%5Csrc%5Cpages%5C_error.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5Cbin-ReactNext%5Cbin%5Csrc%5Cpages%5C_error.js ***!
   \***************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -40,7 +40,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_Control_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Control/Button */ "./src/components/Control/Button.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\pages\\_error.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\pages\\_error.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -237,12 +237,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 /***/ 1:
 /*!*******************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5CEliah-ReactNext%5Celiah%5Csrc%5Cpages%5C_error.js ***!
+  !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5Cbin-ReactNext%5Cbin%5Csrc%5Cpages%5C_error.js ***!
   \*******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F_error&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5CEliah-ReactNext%5Celiah%5Csrc%5Cpages%5C_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5CEliah-ReactNext%5Celiah%5Csrc%5Cpages%5C_error.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F_error&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5Cbin-ReactNext%5Cbin%5Csrc%5Cpages%5C_error.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5Cbin-ReactNext%5Cbin%5Csrc%5Cpages%5C_error.js!./");
 
 
 /***/ })

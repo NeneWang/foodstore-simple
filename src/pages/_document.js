@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
           <meta
             name="Description"
-            content="Eliah - React NextJs Beauty Salon & Cosmetic Shop Template"
+            content="bin - React NextJs Beauty Salon & Cosmetic Shop Template"
           />
           <link rel="icon" href="/fav.png" />
           <link

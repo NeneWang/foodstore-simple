@@ -2114,9 +2114,9 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcomida&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5CEliah-ReactNext%5Celiah%5Csrc%5Cpages%5Ccomida.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcomida&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5Cbin-ReactNext%5Cbin%5Csrc%5Cpages%5Ccomida.js!./":
 /*!***************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcomida&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5CEliah-ReactNext%5Celiah%5Csrc%5Cpages%5Ccomida.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcomida&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5Cbin-ReactNext%5Cbin%5Csrc%5Cpages%5Ccomida.js ***!
   \***************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -25782,7 +25782,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\common\\withScrollFixed.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\common\\withScrollFixed.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 /* harmony default export */ __webpack_exports__["default"] = (function (WrappedComponent) {
@@ -25913,7 +25913,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Button */ "./src/components/Control/Button.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Control\\AddToCart.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Control\\AddToCart.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -26041,7 +26041,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Control\\Button.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Control\\Button.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -26164,7 +26164,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_transition_group__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/esm/index.js");
 /* harmony import */ var _common_ClientOnlyPortal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../common/ClientOnlyPortal */ "./src/common/ClientOnlyPortal.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Control\\Modal.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Control\\Modal.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -26314,7 +26314,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _common_variables__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../common/variables */ "./src/common/variables.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Control\\Quantity.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Control\\Quantity.js",
     _s = $RefreshSig$();
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -26471,7 +26471,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Other_Rate__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Other/Rate */ "./src/components/Other/Rate.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Control\\Review.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Control\\Review.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -26660,7 +26660,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Control\\Select.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Control\\Select.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -26810,7 +26810,7 @@ __webpack_require__.r(__webpack_exports__);
 var _data_footer_links_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/footer/links.json */ "./src/data/footer/links.json", 1);
 /* harmony import */ var _data_footer_info_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../data/footer/info.json */ "./src/data/footer/info.json");
 var _data_footer_info_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/footer/info.json */ "./src/data/footer/info.json", 1);
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Footer\\FooterOne.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Footer\\FooterOne.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -27242,7 +27242,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-toastify */ "./node_modules/react-toastify/dist/react-toastify.esm.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Header\\Elements\\CartItem.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Header\\Elements\\CartItem.js",
     _s = $RefreshSig$();
 
 
@@ -27448,7 +27448,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _common_ClientOnlyPortal__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../common/ClientOnlyPortal */ "./src/common/ClientOnlyPortal.js");
 /* harmony import */ var _Control_Button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../Control/Button */ "./src/components/Control/Button.js");
 /* harmony import */ var _common_shopUtils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../common/shopUtils */ "./src/common/shopUtils.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Header\\Elements\\CartItemsSidebar.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Header\\Elements\\CartItemsSidebar.js",
     _s = $RefreshSig$();
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -27701,7 +27701,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _common_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../common/utils */ "./src/common/utils.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Header\\Elements\\MenuFunctionIcons.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Header\\Elements\\MenuFunctionIcons.js",
     _s = $RefreshSig$();
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -27927,7 +27927,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _NavigatorMobile__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NavigatorMobile */ "./src/components/Header/Elements/NavigatorMobile.js");
 /* harmony import */ var _Other_SocialIcons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../Other/SocialIcons */ "./src/components/Other/SocialIcons.js");
 /* harmony import */ var _Control_Select__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../Control/Select */ "./src/components/Control/Select.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Header\\Elements\\MobileNavSidebar.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Header\\Elements\\MobileNavSidebar.js",
     _s = $RefreshSig$();
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -28119,7 +28119,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _data_header_navigation_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../data/header/navigation.json */ "./src/data/header/navigation.json");
 var _data_header_navigation_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../data/header/navigation.json */ "./src/data/header/navigation.json", 1);
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Header\\Elements\\Navigator.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Header\\Elements\\Navigator.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -28564,7 +28564,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_transition_group__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/esm/index.js");
 /* harmony import */ var _data_header_navigation_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../data/header/navigation.json */ "./src/data/header/navigation.json");
 var _data_header_navigation_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../../data/header/navigation.json */ "./src/data/header/navigation.json", 1);
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Header\\Elements\\NavigatorMobile.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Header\\Elements\\NavigatorMobile.js",
     _s = $RefreshSig$();
 
 
@@ -29008,7 +29008,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_transition_group__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-transition-group */ "./node_modules/react-transition-group/esm/index.js");
 /* harmony import */ var react_hook_form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-hook-form */ "./node_modules/react-hook-form/dist/react-hook-form.es.js");
 /* harmony import */ var _common_ElementOutsideClick__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../common/ElementOutsideClick */ "./src/common/ElementOutsideClick.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Header\\Elements\\SearchBox.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Header\\Elements\\SearchBox.js",
     _s = $RefreshSig$();
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -29177,7 +29177,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Menu_MenuThree__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Menu/MenuThree */ "./src/components/Header/Menu/MenuThree.js");
 
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Header\\HeaderFour.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Header\\HeaderFour.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -29273,7 +29273,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Elements_Navigator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Elements/Navigator */ "./src/components/Header/Elements/Navigator.js");
 /* harmony import */ var _Elements_MenuFunctionIcons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Elements/MenuFunctionIcons */ "./src/components/Header/Elements/MenuFunctionIcons.js");
 /* harmony import */ var _common_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../common/utils */ "./src/common/utils.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Header\\Menu\\MenuThree.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Header\\Menu\\MenuThree.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -29434,7 +29434,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _common_withScrollFixed__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../common/withScrollFixed */ "./src/common/withScrollFixed.js");
 /* harmony import */ var _Footer_FooterOne__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Footer/FooterOne */ "./src/components/Footer/FooterOne.js");
 /* harmony import */ var _Header_HeaderFour__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Header/HeaderFour */ "./src/components/Header/HeaderFour.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Layout\\LayoutFour.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Layout\\LayoutFour.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -29555,7 +29555,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _this = undefined,
-    _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Other\\Breadcrumb.js";
+    _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Other\\Breadcrumb.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -29688,7 +29688,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Other\\Rate.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Other\\Rate.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -29821,7 +29821,7 @@ var _excluded = ["currentSlide", "slideCount"],
     _excluded2 = ["currentSlide", "slideCount"];
 
 var _this = undefined,
-    _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Other\\SliderArrow.js";
+    _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Other\\SliderArrow.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
@@ -29952,7 +29952,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Other\\SocialIcons.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Other\\SocialIcons.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -30153,7 +30153,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
 var _this = undefined,
-    _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Other\\SubcribeEmail.js";
+    _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Other\\SubcribeEmail.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -30424,7 +30424,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _redux_actions_cartActions__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../redux/actions/cartActions */ "./src/redux/actions/cartActions.js");
 /* harmony import */ var _redux_actions_wishlistActions__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../redux/actions/wishlistActions */ "./src/redux/actions/wishlistActions.js");
 /* harmony import */ var _Control_AddToCart__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../Control/AddToCart */ "./src/components/Control/AddToCart.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Product\\index.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Product\\index.js",
     _s = $RefreshSig$();
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -31123,7 +31123,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _common_shopUtils__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../common/shopUtils */ "./src/common/shopUtils.js");
 
 
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\ProductDetail\\Elements\\ProductDetailController.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\ProductDetail\\Elements\\ProductDetailController.js",
     _s = $RefreshSig$();
 
 
@@ -31341,7 +31341,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ProductDetailInfoTab__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ProductDetailInfoTab */ "./src/components/ProductDetail/Elements/ProductDetailInfoTab.js");
 /* harmony import */ var _Other_Rate__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../Other/Rate */ "./src/components/Other/Rate.js");
 /* harmony import */ var _common_shopUtils__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../../common/shopUtils */ "./src/common/shopUtils.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\ProductDetail\\Elements\\ProductDetailInfo.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\ProductDetail\\Elements\\ProductDetailInfo.js",
     _s = $RefreshSig$();
 
 
@@ -31624,7 +31624,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_tabs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-tabs */ "./node_modules/react-tabs/esm/index.js");
 /* harmony import */ var react_hook_form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-hook-form */ "./node_modules/react-hook-form/dist/react-hook-form.es.js");
 /* harmony import */ var _Control_Review__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Control/Review */ "./src/components/Control/Review.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\ProductDetail\\Elements\\ProductDetailInfoTab.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\ProductDetail\\Elements\\ProductDetailInfoTab.js",
     _s = $RefreshSig$();
 
 
@@ -31843,7 +31843,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Other_SliderArrow__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Other/SliderArrow */ "./src/components/Other/SliderArrow.js");
 
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\ProductDetail\\Elements\\ProductDetailSlideOne.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\ProductDetail\\Elements\\ProductDetailSlideOne.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -32002,7 +32002,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Elements_ProductDetailInfo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Elements/ProductDetailInfo */ "./src/components/ProductDetail/Elements/ProductDetailInfo.js");
 /* harmony import */ var _Elements_ProductDetailSlideOne__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Elements/ProductDetailSlideOne */ "./src/components/ProductDetail/Elements/ProductDetailSlideOne.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\ProductDetail\\ProductQuickView.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\ProductDetail\\ProductQuickView.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -32141,7 +32141,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-slick */ "./node_modules/react-slick/lib/index.js");
 /* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Sections\\Instagram\\InstagramTwo.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Sections\\Instagram\\InstagramTwo.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -32294,7 +32294,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Sections\\SectionTitle\\SectionTitleOne.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Sections\\SectionTitle\\SectionTitleOne.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -32434,7 +32434,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Control_Select__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Control/Select */ "./src/components/Control/Select.js");
 /* harmony import */ var _common_variables__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../common/variables */ "./src/common/variables.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Shop\\ShopHeader.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Shop\\ShopHeader.js",
     _s = $RefreshSig$();
 
 
@@ -32618,7 +32618,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
 
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Shop\\ShopProducts.js";
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Shop\\ShopProducts.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -32821,7 +32821,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _common_variables__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../common/variables */ "./src/common/variables.js");
 /* harmony import */ var _common_utils__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../common/utils */ "./src/common/utils.js");
 /* harmony import */ var _redux_actions_shopActions__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../redux/actions/shopActions */ "./src/redux/actions/shopActions.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\components\\Shop\\ShopSidebar.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\components\\Shop\\ShopSidebar.js",
     _s = $RefreshSig$();
 
 
@@ -33121,7 +33121,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Shop_ShopHeader__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Shop/ShopHeader */ "./src/components/Shop/ShopHeader.js");
 /* harmony import */ var _components_Sections_Instagram_InstagramTwo__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/Sections/Instagram/InstagramTwo */ "./src/components/Sections/Instagram/InstagramTwo.js");
 /* harmony import */ var _components_Shop_ShopSidebar__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Shop/ShopSidebar */ "./src/components/Shop/ShopSidebar.js");
-var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\Eliah-ReactNext\\eliah\\src\\pages\\comida.js",
+var _jsxFileName = "E:\\wangn\\Assets\\ecommerce-nextjs\\bin-ReactNext\\bin\\src\\pages\\comida.js",
     _s = $RefreshSig$();
 
 
@@ -33759,12 +33759,12 @@ var SHOP = {
 
 /***/ 2:
 /*!*******************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fcomida&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5CEliah-ReactNext%5Celiah%5Csrc%5Cpages%5Ccomida.js ***!
+  !*** multi next-client-pages-loader?page=%2Fcomida&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5Cbin-ReactNext%5Cbin%5Csrc%5Cpages%5Ccomida.js ***!
   \*******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcomida&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5CEliah-ReactNext%5Celiah%5Csrc%5Cpages%5Ccomida.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcomida&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5CEliah-ReactNext%5Celiah%5Csrc%5Cpages%5Ccomida.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcomida&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5Cbin-ReactNext%5Cbin%5Csrc%5Cpages%5Ccomida.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcomida&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5Cbin-ReactNext%5Cbin%5Csrc%5Cpages%5Ccomida.js!./");
 
 
 /***/ }),

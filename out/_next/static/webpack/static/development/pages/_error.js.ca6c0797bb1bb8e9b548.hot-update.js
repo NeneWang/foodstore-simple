@@ -21,7 +21,7 @@ false,
 /***/ "./node_modules/next/dist/build/polyfills/object.assign/index.js":
 false,
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5CEliah-ReactNext%5Celiah%5Csrc%5Cpages%5C_error.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_error&absolutePagePath=E%3A%5Cwangn%5CAssets%5Cecommerce-nextjs%5Cbin-ReactNext%5Cbin%5Csrc%5Cpages%5C_error.js!./":
 false,
 
 /***/ "./node_modules/next/dist/client/link.js":
