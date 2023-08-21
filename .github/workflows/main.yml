@@ -1,5 +1,8 @@
 name: Continuous Integration
+
 on:
+  schedule:
+    - cron: "0 * * * *"
   workflow_dispatch:
 jobs:
   install-and-test:
@@ -19,4 +22,5 @@ jobs:
         run: |
           git config --global user.name "nenewang"
           make build-commit-donpush
-          make ft-configpush
+      - name: Pushing Changes
+        run: make ft-configpush
