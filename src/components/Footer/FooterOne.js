@@ -10,7 +10,8 @@ export default function FooterOne() {
     <div className="footer-one">
       <div className="container">
         <div className="footer-one__header">
-          <div className="footer-one__header__logo">
+          {/* Instagram and Social are commented */}
+          {/* <div className="footer-one__header__logo">
             <Link href={process.env.PUBLIC_URL + "index"}>
               <a>
                 <img
@@ -19,11 +20,11 @@ export default function FooterOne() {
                 />
               </a>
             </Link>
-          </div>
+          </div> */}
           
-          <div className="footer-one__header__social">
+          {/* <div className="footer-one__header__social">
             <SocialIcons className="-border" />
-          </div>
+          </div> */}
         </div>
         <div className="footer-one__body">
           <div className="row">
@@ -56,18 +57,6 @@ export default function FooterOne() {
                       ))}
                     </ul>
                   </div> */}
-                  <div className="col-12 col-sm-6">
-                    <h5 className="footer-title">Infomacion</h5>
-                    <ul>
-                      {footerLinks.informationLinks.map((link, index) => (
-                        <li key={index}>
-                          <Link href={link.to}>
-                            <a>{link.name}</a>
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
                 </div>
               </div>
             </div>

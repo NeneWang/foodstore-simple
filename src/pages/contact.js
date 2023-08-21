@@ -12,7 +12,6 @@ export default function () {
   return (
     <LayoutFour title="Contáctanos">
       <Breadcrumb title="Contáctanos">
-        <BreadcrumbItem name="Home" />
         <BreadcrumbItem name="Contáctanos" current />
       </Breadcrumb>
       <div className="contact">
@@ -30,7 +29,7 @@ export default function () {
                   />
                 ))}
             </div>
-            <div className="col-12 col-md-6">
+            {/* <div className="col-12 col-md-6">
               <h3 className="contact-title">Contáctanos</h3>
               <div className="contact-form">
                 <form onSubmit={handleSubmit(onSubmit)}>
@@ -70,7 +69,7 @@ export default function () {
                   <button className="btn -dark">Enviar Mensaje</button>
                 </form>
               </div>
-            </div>
+            </div> */}
             <div className="col-12">
               
             <h4>Donde Servimos?</h4>

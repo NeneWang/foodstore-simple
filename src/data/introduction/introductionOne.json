@@ -1,7 +1,7 @@
 {
   "subTitle": {
-    "main": "El resutaurante de",
-    "span": "Chensito"
+    "main": "Bin",
+    "span": "Distribidora"
   },
   "title": {
     "main": "Precio Cuidado",
@@ -9,7 +9,7 @@
   },
   "description": "Distribuimos comida en todo Buenos Aires",
   "btn": {
-    "content": "Comprar",
+    "content": "Ver Productos",
     "color": "white"
   }
 }

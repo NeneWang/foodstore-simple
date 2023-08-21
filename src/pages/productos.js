@@ -34,9 +34,9 @@ function Comida({productData}) {
   // console.log(productData);
   return (
     <LayoutFour title="Comida" container="wide">
-      <Breadcrumb title="Menu de Comida">
-        <BreadcrumbItem name="Home" />
-        <BreadcrumbItem name="Comida" current />
+      <Breadcrumb title="Productos">
+        {/* <BreadcrumbItem name="Home" />
+        <BreadcrumbItem name="Comida" current /> */}
       </Breadcrumb>
       <div className="shop -five-col">
         <div className="container-full-half">
@@ -76,7 +76,7 @@ function Comida({productData}) {
           </div>
         </div>
       </div>
-      <InstagramTwo />
+      {/* <InstagramTwo /> */}
     </LayoutFour>
   );
 }

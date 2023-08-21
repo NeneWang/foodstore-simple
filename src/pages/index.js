@@ -12,10 +12,10 @@ import InstagramOne from "../components/Sections/Instagram/InstagramOne";
 export default function homepage1() {
   return (
     <LayoutFour title="Homepage 1" data={sliderData} className="-style-1">
-      <SliderTwo data={sliderData} className="-style-1" showDots />
+      {/* <SliderTwo data={sliderData} className="-style-1" showDots /> */}
       <IntroductionOne data={introductionOneData} />
-      <IntroductionTwo data={introductionTwoData} />
-      <InstagramOne />
+      {/* <IntroductionTwo data={introductionTwoData} /> */}
+      {/* <InstagramOne /> */}
     </LayoutFour>
   );
 }
