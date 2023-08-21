@@ -50,40 +50,6 @@ export default function ShopSidebar() {
         </div>
         <div className="shop-sidebar__section -refine">
          
-          <div className="shop-sidebar__section__item">
-            <h5>Precio</h5>
-            <ul>
-              {shop.PRICE_POINTS.map((item, index) => {
-                let nextVal = shop.PRICE_POINTS[index + 1];
-                if (index === shop.PRICE_POINTS.length - 1) {
-                  return;
-                }
-                return (
-                  <li key={index}>
-                    <label htmlFor={`f${item}t${nextVal}`}>
-                      <input
-                        type="checkbox"
-                        name="price-filter"
-                        id={`f${item}t${nextVal}`}
-                        value={`f${item}t${nextVal}`}
-                        checked={filterData.priceRange.to === nextVal}
-                        onChange={() => {
-                          if (filterData.priceRange.to === nextVal) {
-                            dispatch(setFilterPriceRange({}));
-                          } else {
-                            dispatch(
-                              setFilterPriceRange({ from: item, to: nextVal })
-                            );
-                          }
-                        }}
-                      />
-                      {formatCurrency(item)} - {formatCurrency(nextVal)}
-                    </label>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
         </div>
       </div>
     </div>
