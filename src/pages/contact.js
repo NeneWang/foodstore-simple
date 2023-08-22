@@ -1,14 +1,11 @@
 import { useForm } from "react-hook-form";
-
 import LayoutFour from "../components/Layout/LayoutFour";
-import InstagramTwo from "../components/Sections/Instagram/InstagramTwo";
 import { Breadcrumb, BreadcrumbItem } from "../components/Other/Breadcrumb";
 import ContactInfoItem from "../components/Pages/Contact/ContactInfoItem";
 import contactData from "../data/pages/contact.json";
 
 export default function () {
-  const { register, handleSubmit, watch, errors } = useForm();
-  const onSubmit = (data) => console.log(data);
+  
   return (
     <LayoutFour title="Contáctanos">
       <Breadcrumb title="Contáctanos">
@@ -34,47 +31,6 @@ export default function () {
                   <img src="/assets/images/qr.png" alt="" />
             </div>
 
-            {/* <div className="col-12 col-md-6">
-              <h3 className="contact-title">Contáctanos</h3>
-              <div className="contact-form">
-                <form onSubmit={handleSubmit(onSubmit)}>
-                  <div className="input-validator">
-                    <input
-                      type="text"
-                      name="name"
-                      placeholder="Nombre"
-                      ref={register({ required: true })}
-                    />
-                    {errors.name && (
-                      <span className="input-error">Please provide a name</span>
-                    )}
-                  </div>
-                  <div className="input-validator">
-                    <input
-                      type="text"
-                      name="email"
-                      placeholder="Email"
-                      ref={register({ required: true })}
-                    />
-                    {errors.email && (
-                      <span className="input-error">
-                        Please provide an email
-                      </span>
-                    )}
-                  </div>
-                  <div className="input-validator">
-                    <textarea
-                      name="message"
-                      id=""
-                      cols="30"
-                      rows="3"
-                      placeholder="Mensaje"
-                    />
-                  </div>
-                  <button className="btn -dark">Enviar Mensaje</button>
-                </form>
-              </div>
-            </div> */}
             <div className="col-12">
               
             <h4>Donde Servimos?</h4>

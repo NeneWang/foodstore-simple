@@ -4,18 +4,11 @@ import SliderTwo from "../components/Sections/Slider/SliderTwo";
 import sliderData from "../data/slider/sliderOne.json";
 import IntroductionOne from "../components/Sections/Introduction/IntroductionOne";
 import introductionOneData from "../data/introduction/introductionOne.json";
-import IntroductionTwo from "../components/Sections/Introduction/IntroductionTwo";
-import introductionTwoData from "../data/introduction/introductionTwo.json";
-
-import InstagramOne from "../components/Sections/Instagram/InstagramOne";
 
 export default function homepage1() {
   return (
-    <LayoutFour title="Homepage 1" data={sliderData} className="-style-1">
-      {/* <SliderTwo data={sliderData} className="-style-1" showDots /> */}
+    <LayoutFour title="A Bin Distribuciones" data={sliderData} className="-style-1">
       <IntroductionOne data={introductionOneData} />
-      {/* <IntroductionTwo data={introductionTwoData} /> */}
-      {/* <InstagramOne /> */}
     </LayoutFour>
   );
 }
