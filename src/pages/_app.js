@@ -18,7 +18,7 @@ const App = ({ Component, pageProps, reduxStore }) => {
           smooth
           component={<i className="fal fa-arrow-to-top" />}
           style={{
-            backgroundColor: "#f7f5f4",
+            backgroundColor: "#fd5e5e",
             borderRadius: "999px",
             height: "50px",
             width: "50px",

@@ -314,7 +314,7 @@
     }
   }
   &.-style-3 {
-    background-color: setShadeColor(dark);
+    background-color:  rgba(140, 85, 85, 1);
     padding: emCal(16, 15) 0;
     .menu__wrapper {
       &__logo {
@@ -348,10 +348,6 @@
     padding: emCal(16, 30) 0;
     z-index: 100;
 
-    .menu__wrapper {
-      &__controller {
-      }
-    }
   }
   &.-style-6 {
     @extend .-style-2;
